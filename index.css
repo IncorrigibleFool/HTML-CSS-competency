@@ -12,7 +12,7 @@
     /* 24E */
     padding: 50px;
     /* 24F */
-    box-sizing: border-box;
+    box-sizing: content-box;
     width: 200px;
     height: 100px;
 }
