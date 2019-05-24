@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- 54I-1 -->
+<html lang="en">
+<!-- 54I-2 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Competency Dump</title>
+    <!-- 54H -->
+    <link href='index.css' rel='stylesheet'/>
+</head>
+<header>
+    <!-- 54F-1 -->
+    <h1>I am an h1 header.</h1>
+    <!-- 54F-2 -->
+    <h2>I am an h2 header.</h2>
+</header>
+<!-- 54I-3 -->
+<body>
+    <!-- 54C-3 -->
+    <div id='bax'>I am a box that is manipulated to show the box model of CSS.</div>
+    <div class='float'>I am a floaty box.</div>
+    <div class='no-float'>I am a non floaty box</div>
+    <div>
+        Filler text.
+        <div class='inline'>
+            I am an inline display.
+        </div>
+        Filler text.
+    </div>
+    <div>
+        Filler text.
+        <!-- 54C-2 -->
+        <span class='block'>
+            I am a block display.
+        </span>
+        Filler text.
+    </div>
+    <!-- Font/Background -->
+    <div class='font'>Behold my font manipulation!</div>
+    <div id='color-bax'>I have a background color.</div>
+    <div id='image-bax'>I have a background-image.</div>
+    <!-- Position -->
+    <div id='position-parent'>
+        <div class='absolute'>I have an absolute position.</div>
+        <div class='relative'>I have a relative position.</div>
+        <div class='fixed'>I have a fixed position.</div>
+    </div>
+    <div>
+        <!-- 54C-1 -->
+        <p>I'm a p tag inside a div.</p>
+        <span>
+            <p>I'm a p tag whose parent is a span inside of a div.</p>
+        </span>
+        <p>I'm a p tag inside a div.</p>
+    </div>
+    <p>I'm a p tag placed after a div.</p>
+    <p>I'm a p tag not placed immediately after a div.</p>
+    <!-- 54E-2 & 54J-->
+    <img src='https://www.avsforum.com/photopost/data/1576435/f/f8/f83ddf4f_chuck-norris-thumbs-up.jpeg' alt='oops'/>
+    <!-- 54E-1 -->
+    <ul>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ul>
+    <!-- 54D-1 -->
+    <article>
+        <h2>This is contained in an article tag.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae blandit quam. Maecenas fringilla purus vel quam scelerisque, non convallis quam interdum. Vivamus lobortis lectus in feugiat volutpat. Morbi ut tellus quis leo volutpat cursus porta et elit. Nullam vulputate leo eu augue faucibus placerat. Curabitur nec augue velit. Integer suscipit sapien libero, vitae molestie quam gravida a. Praesent eget sem finibus, imperdiet ipsum sed, aliquet arcu. Fusce sapien justo, tincidunt quis eros vel, ultrices finibus lectus. Donec tempus justo turpis, non eleifend metus porta a. Quisque sed facilisis dui, id tincidunt ex. Nulla eu augue risus. Sed lobortis massa at euismod consequat. Praesent in mattis libero, non aliquet mi. Praesent auctor elit sit amet ex molestie pulvinar. Phasellus sem velit, ullamcorper ac ante vitae, cursus malesuada velit.</p>
+    </article>
+    <!-- 54D-2 -->
+    <section>
+        <h2>This is contained in a section tag.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae blandit quam. Maecenas fringilla purus vel quam scelerisque, non convallis quam interdum. Vivamus lobortis lectus in feugiat volutpat. Morbi ut tellus quis leo volutpat cursus porta et elit. Nullam vulputate leo eu augue faucibus placerat. Curabitur nec augue velit. Integer suscipit sapien libero, vitae molestie quam gravida a. Praesent eget sem finibus, imperdiet ipsum sed, aliquet arcu. Fusce sapien justo, tincidunt quis eros vel, ultrices finibus lectus. Donec tempus justo turpis, non eleifend metus porta a. Quisque sed facilisis dui, id tincidunt ex. Nulla eu augue risus. Sed lobortis massa at euismod consequat. Praesent in mattis libero, non aliquet mi. Praesent auctor elit sit amet ex molestie pulvinar. Phasellus sem velit, ullamcorper ac ante vitae, cursus malesuada velit.</p>
+    </section>
+    <!-- 54G -->
+    <input type='text' placeholder='I am self closing.'>
+    <button id='button' onclick="buttonClick()">Click me!</button>
+    <div id='fancy'>Fancy! Looooooooooooooooooooooooooooooong words.</div>
+    <div id='flexed-on'>
+        <div class='flex-items'></div>
+        <div class='flex-items'></div>
+        <div class='flex-items'></div>
+        <div class='flex-items'></div>
+        <div class='flex-items'></div>
+        <div class='flex-items'></div>
+        <div class='flex-items'></div>
+        <div class='flex-items'></div>
+    </div>
+    <!-- 56C -->
+    <video controls>
+        <source src="example.mp4" type="video/mp4"/>
+    </video>
+    <!-- 56D -->
+    <audio controls>
+        <source src="ZA_WARUDO.mp3" type="audio/mp3"/>
+    </audio>
+    <!-- 54D-3 -->
+    <footer>
+        <h3>This is the footer.</h3>
+    </footer>
+    <!-- 61C -->
+    <script type='text/javascript'>
+        document.getElementById('button').onclick= function buttonClick(){
+            alert('Ya clicked meh!')
+        }
+    </script>
+</body>
+</html>

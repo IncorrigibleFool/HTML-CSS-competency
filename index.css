@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* 22C-1 */
+#bax{
+    /* 24C */
+    margin: 100px;
+    /* 24D */
+    border: 5px solid peru;
+    /* 24E */
+    padding: 50px;
+    /* 24F */
+    width: 200px;
+    height: 100px;
+}
+
+/* 22C-2 */
+.float{
+    border: 5px solid red;
+    /* 25D */
+    float: right;
+    width: fit-content;
+}
+
+.no-float{
+    float: none;
+    border: 5px solid blue;
+    width: fit-content;
+}
+
+/* 25F */
+.inline{
+    display: inline;
+    background-color: lightblue;
+}
+
+.block{
+    display: block;
+    background-color: lime;
+}
+/* 25F end */
+
+.font{
+    /* 23D-1 */
+    font-weight: bold;
+    /* 23D-3 */
+    font-size: 3rem;
+    /* 23D-2 */
+    color: gold;
+}
+
+#color-bax{
+    /* 23E */
+    background-color: pink;
+}
+
+#image-bax{
+    /* 23F */
+    background-image: url('https://i.kym-cdn.com/photos/images/facebook/001/131/651/406.jpg');
+    color: white;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+}
+
+#position-parent{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.fixed{
+    background-color: green;
+    color: white;
+    /* 25C-3 */
+    position: fixed;
+    top: 50px;
+    right: 20px;
+}
+
+.absolute{
+    /* 25C-2 */
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: purple;
+    color: white;
+}
+
+.relative{
+    /* 25C-1 */
+    position: relative;
+    top: 50px;
+    background-color: peru;
+}
+
+/* 22C-3 */
+div p{
+    background-color: purple;
+}
+
+/* 22C-4 */
+span > p{
+    color: yellow;
+}
+
+/* 22C-5 */
+div + p{
+    background-color: blue;
+    color: white;
+}
+
+#fancy{
+    /* 30C */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    /* 30D */
+    background-image: linear-gradient(-90deg, red, purple);
+    /* 30E */
+    word-wrap: break-word;
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+#flexed-on{
+    width: 200px;
+    height: 200px;
+    /* 27C */
+    justify-content: space-evenly;
+    /* 27D */
+    align-items: center;
+    /* 27E */
+    flex-wrap: wrap;
+    /* 27F */
+    flex-direction: column;
+    /* 27G */
+    display: flex;
+    border: 1px solid blue;
+}
+
+.flex-items{
+    border: 1px solid red;
+    height: 25px;
+    width: 25px;
+}
